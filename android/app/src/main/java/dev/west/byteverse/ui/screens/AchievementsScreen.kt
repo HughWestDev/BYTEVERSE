@@ -101,15 +101,15 @@ fun AchievementsScreen(
                 )
             }
         } else {
-            val animatedRankProgress by animateFloatAsState(
-                targetValue = analytics.rankProgress,
-                animationSpec = tween(durationMillis = 800, easing = FastOutSlowInEasing),
-                label = "rank_xp_progress"
-            )
             val unlockedCount = analytics.achievements.count { it.isUnlocked }
 
             // Rank & XP Card
             item {
+                val animatedRankProgress by animateFloatAsState(
+                    targetValue = analytics.rankProgress,
+                    animationSpec = tween(durationMillis = 800, easing = FastOutSlowInEasing),
+                    label = "rank_xp_progress"
+                )
                 GlowingCard(glowColor = ElectricPurple) {
                     Row(
                         modifier = Modifier.fillMaxWidth(),
