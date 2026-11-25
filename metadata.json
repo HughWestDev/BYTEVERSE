@@ -1,0 +1,6 @@
+{
+  "name": "BYTEVERSE",
+  "description": "Explore Your Developer Universe — Native Android Kotlin & Jetpack Compose application by WEST.DEV",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

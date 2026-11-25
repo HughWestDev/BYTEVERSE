@@ -1,0 +1,8 @@
+# Copy this file to local.properties in the /android directory
+# and set your Android SDK path and optional GitHub token.
+
+# sdk.dir=/Users/yourname/Library/Android/sdk
+
+# Optional: GitHub Personal Access Token (no special scopes needed for public profiles)
+# Increases GitHub REST API rate limit from 60 requests/hour to 5,000 requests/hour.
+# GITHUB_TOKEN=ghp_your_token_here
